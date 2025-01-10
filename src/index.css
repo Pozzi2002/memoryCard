@@ -141,3 +141,16 @@ body {
     text-shadow: 0 0 20px rgb(208, 1, 181);
     margin: 10px;
 }
+.divCongratulations {
+    background-color: black;
+    opacity: 0.8;
+}
+.congratulations {
+    text-align: center;
+    font-family: 'wubba_lubba_dub_dubregular';
+    font-size: 3rem;
+    color: rgb(210, 229, 2);
+    text-shadow: 0 0 30px rgb(61, 0, 53);
+    margin-top: 200px;
+    padding: 10px;
+}

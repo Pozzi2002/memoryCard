@@ -47,12 +47,15 @@ function Game() {
      }
      if (score == 12) {
       setFinish(true)
+      setTimeout(() => window.location.reload(), 4000)
      }
   }
 
-   if (finish) {
+  if (finish) {
   return (
-    <h2 className='congratulations'>Congratulations! Надеюсь тебе понравилось</h2>
+    <div className='divCongratulations'>
+     <h2 className='congratulations'>Congratulations! Надеюсь тебе понравилось</h2>
+    </div>
   )
  }
 
