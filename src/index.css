@@ -98,7 +98,6 @@ body {
     }
 }
 /* Game*/
-
 .divScore h2 {
     font-family: 'wubba_lubba_dub_dubregular';
     font-size: 1.5rem;
@@ -111,7 +110,6 @@ body {
     justify-content: center;
     display: grid;
     margin: 30px;
-    gap: 10px;
     grid-template-columns: repeat(4, 300px);
 }
 .card {
@@ -123,7 +121,8 @@ body {
   border-radius: 20px;
   transition: 0.2s transform;
   animation-fill-mode: both;
-  animation: 0.5s appearCard
+  animation: 0.5s appearCard;
+  margin-bottom: 20px;
 }
 @keyframes appearCard {
     0% {
