@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { theme } from './sounds.js'
+import { theme } from './components/sounds.js'
 
 export function LoadingDiv({ isLoaded }) {
     const [textLoading, setTextLoading] = useState('Nikita Stroganov presents')
