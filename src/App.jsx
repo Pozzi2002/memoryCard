@@ -38,17 +38,19 @@ function Game() {
      setRandomArray(shuffle([...randomArray]));
      setScore(score + 1);
      setCount([...count, id])
-     
+    let currentScore = [...count, id].length 
      if (count.includes(id)) {
        setScore(0);
        setCount([]);
        if (score > bestScore)
          setBestScore(score);
      }
-     if (score == 12) {
+     
+
+   if (currentScore == 12) {
       setFinish(true)
       setTimeout(() => window.location.reload(), 4000)
-     }
+    }
   }
 
   if (finish) {
@@ -88,7 +90,7 @@ function HeroCart({ src, heroName, id, randomizeArr }) {
   return (
     <>
     <div className='card' id={id} onClick={randomizeArr}>
-      <img src={src}></img>
+      <img src={src} alt={heroName}></img>
       <h3>{heroName}</h3>
     </div>
     </>

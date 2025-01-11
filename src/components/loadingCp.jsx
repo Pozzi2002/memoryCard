@@ -28,7 +28,7 @@ export function LoadingDiv({ isLoaded }) {
          <div className='loadingDiv'>
            <h2>{textLoading}</h2>
            <button className='loadingBtn' onClick={startGame}>Yes!</button>
-           <img src='./src/assets/images/portal.png' className='portal'></img>
+           <img src='./src/assets/images/portal.png' className='portal' alt='loading'></img>
          </div>
          </div>
       </>    
