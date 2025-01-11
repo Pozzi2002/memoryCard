@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'; 
-import { LoadingDiv } from './loadingCp.jsx';
+import { LoadingDiv } from './components/loadingCp.jsx';
 import { fetchAPI } from './components/fetchAPI.js';
 import { shuffle } from './components/shuffleArr.js'
 import { tick } from './components/sounds.js';
