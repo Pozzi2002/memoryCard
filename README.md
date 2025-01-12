@@ -1,3 +1,2 @@
-#Memory card game
-##Rick and Morty
-###Project 2025
+# Memory card game - Rick and Morty theme 
+### Project 2025
